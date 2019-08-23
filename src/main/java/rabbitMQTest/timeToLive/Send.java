@@ -62,7 +62,7 @@ public class Send {
 	public static void main(String[] args) throws IOException, TimeoutException {
 		User user = new User();
 		user.setAge(12);
-		user.setName("»Ó∫Ω");
+		user.setName("»Ó∫Ω123");
 		user.setPassword("123456");
 		SendAtoB(user);
 	}
