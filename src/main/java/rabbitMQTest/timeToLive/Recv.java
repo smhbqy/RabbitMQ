@@ -52,7 +52,7 @@ public class Recv {
         
         //绑定临时队列和转发器header_exchange  
         channel.queueBind(queueName, "header_exechange", "", headers);  
-        System.out.println("Received ...");  
+        System.out.println("接收Received ...");
 //        Consumer consumer=new DefaultConsumer(channel){  
 //            @Override  
 //            public void handleDelivery(String consumerTag,Envelope envelope,AMQP.BasicProperties properties,byte[] body) throws IOException{  
